@@ -21,6 +21,10 @@
     background-image: url(img/isis-temple.jpg);
     background-size: cover;
 }
-.attribution {
 
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
 }
