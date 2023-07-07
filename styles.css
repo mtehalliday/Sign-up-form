@@ -73,5 +73,19 @@
     width: 100%;
     height: calc(15% + 200px);
     font-size: 18px;
+    font-weight: 500;
     line-height: 1.8;
+}
+.form {
+    background-color: white;
+    height: 30%;
+    width: 100%;
+}
+.create {
+    background-color: var(--light-grey);
+    height: calc(55% - 200px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
