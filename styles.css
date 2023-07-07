@@ -18,12 +18,11 @@
 
 .img-container {
     /*display: flex;
-    flex-direction: column;
     align-items: center;*/
     position: relative;
-    color: rgb(200, 0, 0);
+    color: white;
     justify-content: flex-end;
-    width: 40%;
+    width: 35%;
     height: auto;
     background-color: aquamarine;
     background-image: url(img/cristina-gottardi-ZbXyVprW8q4-unsplash.jpg);
@@ -40,6 +39,7 @@
     position: absolute;
     top: calc(30px + 15%);
     font-family: odin;
+    font-size: 96px;
 }
 
 .logo-container img {
