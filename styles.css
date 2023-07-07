@@ -10,9 +10,17 @@
 }
 
 .img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(200, 0, 0);
+    justify-content: flex-end;
     width: 40%;
     height: auto;
     background-color: aquamarine;
     background-image: url(img/isis-temple.jpg);
     background-size: cover;
+}
+.attribution {
+
 }
