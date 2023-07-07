@@ -81,11 +81,58 @@
     height: 30%;
     width: 100%;
 }
+
+form {
+    margin-left: 40px;
+}
+
+input,
+textarea,
+select,
+button {
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+form .row {
+    display: flex;
+}
+form .col {
+    flex: 50%;
+}
+
+/*h2 {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+*/
 .create {
     background-color: var(--light-grey);
     height: calc(55% - 200px);
-    display: flex;
+    display: block;
+   /* display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;*/
+}
+
+button {
+    padding: 10px 25px;
+    margin: 40px;
+    background-color: antiquewhite;
+    border-radius: 6px;
+
+}
+
+.create p {
+    margin-left: 40px;
+}
+
+.create p span {
+    font-weight: 500;
+    color: skyblue;
 }
